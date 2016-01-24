@@ -24,6 +24,7 @@ set ruler
 set backspace=indent,eol,start
 set laststatus=2
 
+" tame searching and moving
 nnoremap / /\v
 vnoremap / /\v
 set ignorecase
@@ -56,8 +57,10 @@ let mapleader = ","
 filetype off
 filetype plugin indent on
 
+" nocompatible ensures that vim doesn't try to be backwards compatible with vi
 set nocompatible
 
+" prevents security exploit having to do with modelines in files
 set modelines=0
 
 set wrap
