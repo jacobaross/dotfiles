@@ -37,6 +37,7 @@ nnoremap <leader><space> :noh<cr>
 nnoremap <tab> %
 vnoremap <tab> %
 
+"remapping navigation and usage keys
 nnoremap <up> <nop>
 nnoremap <down> <nop>
 nnoremap <left> <nop>
@@ -47,11 +48,12 @@ inoremap <left> <nop>
 inoremap <right> <nop>
 nnoremap j gj
 nnoremap k gk
-
 nnoremap ; :
+inoremap jj <ESC>
 
 au FocusLost * :wa
 
+"set leader key to be ,
 let mapleader = ","
 
 filetype off
