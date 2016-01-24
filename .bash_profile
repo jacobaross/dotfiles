@@ -8,3 +8,6 @@ alias hidehidden="defaults write com.apple.finder AppleShowAllFiles NO"
 alias discworld="telnet discworld.starturtle.net 23"
 alias dh="df -h"
 alias pi2="ssh pi@192.168.1.10"
+
+# boot .bashrc which contains more startup scripts (jr)
+source ~/.bashrc
