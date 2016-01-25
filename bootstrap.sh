@@ -26,6 +26,6 @@ for file in $files; do
     ln -s $dir/$file ~/$file
 done
 
-source ~/.bashrc
+source ~/.bash_profile
 source ~/.vimrc
 source ~/.tmux_conf
